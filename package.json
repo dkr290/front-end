@@ -61,7 +61,7 @@
     "copyfiles": "1.2.x",
     "expect.js": "0.x.x",
     "faker": "4.1.x",
-    "mkdirp": "0.5.x",
+    "mkdirp": "1.0.x",
     "mocha": "3.0.x",
     "rimraf": "2.6.x",
     "should": "13.1.x"
