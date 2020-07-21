@@ -1,0 +1,9 @@
+version: "3.6"
+
+
+services:
+  frontend:
+    build: .
+    image: danikr238/frontend
+    ports:
+    - '8079'
