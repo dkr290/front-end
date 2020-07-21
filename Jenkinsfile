@@ -19,7 +19,6 @@ pipeline{
         stage('test'){
             steps{
                 echo 'this is the test job'
-                sh 'npm install'
                 sh 'npm test'
 
             }
@@ -27,7 +26,6 @@ pipeline{
         stage('package'){
             steps{
                 echo 'this is the package job'
-                sh 'npm install'
                 sh 'npm run package'
 
             }
